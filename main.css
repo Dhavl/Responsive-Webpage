@@ -1,0 +1,214 @@
+@font-face {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 300;
+          src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+        @font-face {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 400;
+          src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+        @font-face {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 700;
+          src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+@media screen and (min-width: 992px){
+
+.col-md-3.well{
+    width: 31%;
+ }
+}
+
+body {
+	background-color: #E1E1E1;
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 76%;
+}
+
+h1,h2,h3{
+            color: #002b5a;
+            bottom-margin: 42px;
+            text-transform: capitalize;
+        }
+        h1{
+            font-size: 42px;
+            font-weight: 200;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 200;
+        }
+        h3{
+            font-size: 15px;
+            font-weight: normal;
+    	}
+        
+.col-md-8 p{
+	 color: #333;            
+     font-size: 18px;
+}
+
+.container.row{
+	font-size: 12px;
+	text-align: justify;
+}
+
+.navbar-nav{
+	margin: -40px;
+	opacity: 0.6;
+	margin-left: 900px;
+	position: absolute;
+}
+
+.connect ul li{
+	padding-left: 5px;
+}
+
+
+.col-sm-6.well {
+    background-color: #EEEEEE;
+    padding: 1%;
+ 	margin-top: 4%;
+}
+.col-sm-6.well h2{
+	 font-size: 20px;
+     margin-bottom: 20px;
+     margin-top: 1%;
+}
+.col-sm-6.well p{
+	 color: #002b5a;
+     margin-bottom: 5px;
+     font-size: 12px;
+}
+#states{
+	padding: 1%;
+	width: 80%;
+}
+
+
+/*lightgraybox2*/
+
+.col-md-7 h2{
+	margin-left: 3%;
+
+}
+
+.row ul{
+	margin:2%;
+	padding: 1%; 
+}
+
+.row ul li{
+	background-color: #FBFBFB;
+	padding: 5%;
+	margin: 1% -5%;
+}
+.row ul li h3{
+	color: #002b5a;
+    font-size: 17px;
+    margin: 1%;
+
+}
+ 
+ .row ul li h5{
+	font-size: 13px;
+    color: #4987ca;
+    padding: 0.5%;
+    margin: 0;
+}
+
+.row ul li p{
+	font-size: 13px;
+    color: #666666;
+    height: 2.5em;
+}
+
+.row ul li a{
+	font-size: 13px;
+    color: #666666;
+}
+
+.row ul li #tileImages{
+	width:192px;
+	height:144px;
+	margin-bottom: 15px;
+}
+
+
+
+/*lightgraybox1*/
+
+.col-md-3{
+	margin-top: 2%;
+}
+
+.well.st{
+	margin-bottom: 0.2%;
+}
+
+.col-md-12 h2{
+	margin-left: 1.5%;
+}
+
+.col-md-4 h3{
+	margin-top: 39px;
+	margin-bottom: 2px;
+}
+
+.row.stat{
+	margin: 0;
+	margin-bottom: 5%;
+	padding:0;
+}
+
+.col-md-4 p{
+	font-size: 13px;
+    color: #666666;
+	padding: 1.5% 1%;
+	margin-bottom: 5.5%;
+    height: 6.5em;
+}
+
+.col-md-4 #learnMore{
+     background-color: #ffffff;
+     color: #002b5a;
+     font-size: 14px;
+     border-radius: 3px;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px #fff inset;
+     padding: 4%;    
+}
+
+.ui-autocomplete.ui-widget {
+  font-family: 'Lato', sans-serif;
+  color: #002b5a;
+  background: #FBFBFB;
+  width: 205px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px #fff inset;
+}
+.ui-autocomplete.ui-widget .ui-state-focus{
+    border: 1px solid #F3F3F3;
+    background: #E2E7EB;
+    border-radius: 0;
+    color: #002b5a;
+}
+.ui-autocomplete.ui-widget .ui-menu-item{
+    border-bottom: 1px solid #F3F3F3;
+    font-size: 13px;
+}
+
+
+
+
+
+
