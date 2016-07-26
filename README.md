@@ -8,3 +8,6 @@ Second version included minimum JavaScript interaction.
 Third version included Responsive design of the web page in both Landscape and Portrait mode using Bootstrap.
 
 Run index.html
+
+###Home Page
+![Home Page](https://github.com/Dhavl/Responsive-Webpage/blob/master/whole-page.png)
